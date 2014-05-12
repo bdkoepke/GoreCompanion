@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background="@drawable/background">
+
+    <TextView
+        android:id="@+id/trailsLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="85dp"
+        android:layout_marginTop="25dp"
+        android:gravity="top"
+        android:text="Trails"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/trailsText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/trailsLabel"
+        android:layout_marginLeft="75dp"
+        android:text="N/A"
+        android:textSize="60sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/liftsLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="225dp"
+        android:layout_marginTop="25dp"
+        android:gravity="top"
+        android:text="Lifts"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/liftsText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/liftsLabel"
+        android:layout_marginLeft="210dp"
+        android:text="N/A"
+        android:textSize="60sp"
+        android:textStyle="bold" />
+
+    <View
+        android:id="@+id/view1"
+        android:layout_width="310dp"
+        android:layout_height="1dp"
+        android:layout_below="@+id/trailsText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:alpha="0.6"
+        android:background="@android:color/darker_gray" />
+
+    <!-- top divider ############################################################################ -->
+    <!-- mid section start ######################################################################## -->
+    
+
+    <!-- end mid section -->
+
+    <TextView
+        android:id="@+id/primarySurfaceLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/baseDepthLabel"
+        android:layout_marginTop="250dp"
+        android:text="Primary Surface:"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/baseDepthLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="90dp"
+        android:text="Base Depth:"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/secondarySurfaceLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/primarySurfaceLabel"
+        android:layout_marginTop="300dp"
+        android:text="Secondary Surface:"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/baseDepthText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/primarySurfaceText"
+        android:layout_marginTop="200dp"
+        android:text="N/A"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/secondarySurfaceText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/secondarySurfaceLabel"
+        android:layout_alignBottom="@+id/secondarySurfaceLabel"
+        android:layout_alignLeft="@+id/primarySurfaceText"
+        android:text="N/A"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/primarySurfaceText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/primarySurfaceLabel"
+        android:layout_toRightOf="@+id/primarySurfaceLabel"
+        android:layout_marginLeft="10dp"
+        android:text="N/A"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+</RelativeLayout>

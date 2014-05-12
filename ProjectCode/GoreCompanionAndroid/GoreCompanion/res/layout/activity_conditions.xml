@@ -1,0 +1,22 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Conditions"
+    android:background="@drawable/background" >
+
+	<fragment 
+	    android:name="com.shanewmiller.gorecompanion.TrailsListFragment"
+	    android:id="@+id/trailsFragment"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:background="@drawable/background"    
+	    />
+	<fragment 
+	    android:id="@+id/liftsFragment"
+	    android:name="com.shanewmiller.gorecompanion.LiftsListFragment"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+		/>
+
+</RelativeLayout>

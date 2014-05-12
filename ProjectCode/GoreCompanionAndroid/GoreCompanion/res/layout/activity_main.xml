@@ -1,0 +1,46 @@
+
+
+
+<android.support.v4.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:id="@+id/content_frame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background" />
+
+    <ListView
+        android:id="@+id/list_left_drawer"
+        android:layout_width="240dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:choiceMode="singleChoice"
+        android:divider="#B3B3B3"
+        android:dividerHeight="1dp"
+        android:background="#D3D9E8"/>
+</android.support.v4.widget.DrawerLayout>
+
+<!--  
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+
+    <Button
+            android:layout_width="400dp"
+            android:layout_height="200dp"
+            android:text="Conditions"
+            android:id="@+id/button"
+            android:clickable="true" android:enabled="true" android:onClick="gotoconditions"
+            android:layout_centerVertical="true" 
+            android:layout_centerHorizontal="true" />
+
+</RelativeLayout>
+
+-->
